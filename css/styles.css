@@ -1,12 +1,29 @@
+body {
+  background-color: gray;
+}
+
 #walrus-showing {
+  display: none;
+}
+
+#bloodymary-showing {
   display: none;
 }
 
 .clickable {
   cursor: pointer;
-  color: #0088cc;
+  color: darkred;
 }
 
 .clickable:hover {
+  text-decoration: underline;
+}
+
+.clickable2 {
+  cursor : pointer;
+  color: darkred;
+}
+
+.clickable2:hover {
   text-decoration: underline;
 }

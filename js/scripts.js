@@ -4,3 +4,10 @@ $(document).ready(function() {
     $("#walrus-hidden").slideToggle();
   });
 });
+
+$(document).ready(function() {
+  $(".clickable2").click(function() {
+    $("#bloodymary-showing").slideToggle();
+    $("#bloodymary-hidden").slideToggle();
+  });
+});
